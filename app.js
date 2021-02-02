@@ -26,5 +26,4 @@ function timeFunction() {
     let dailyDay = new Date();
     const weekDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     day.innerText = weekDays[dailyDay.getDay()];
-    // console.log(`${dailyHour} ${dailyMinute}${dailySecond}${dailyDate}${dailyDay}`);
 };
