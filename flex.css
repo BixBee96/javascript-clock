@@ -3,46 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: #111;
+}
 /* container CSS setup */
 .container {
-  background-color: black;
-  color: #fff;
-  border: 10px groove rgb(255, 255, 255);
-  box-shadow: 15px 15px 15px #4bb3e7;
-  /* border-radius: 50%; */
-  /* height: 600px;
-  width: 600px; */
-  height: 80vh;
-  width: 70vw;
+  background-color: #000;
+  border: 10px red solid;
+  border-radius: 50%;
+  height: 40rem;
+  width: 40rem;
   margin: auto;
-  margin-top: 4%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 10%;
+  right: 10%;
 }
 /* date and time css setup */
 .watch-time,
 .watch-date {
   font-family: "Sriracha", cursive;
-  font-size: 30px;
-  font-weight: 900;
+  /* margin: 3rem; */
+  height: 100%;
+  width: 100%;
   display: flex;
-  margin: 5%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 50%;
 }
 /* individual css setup */
 .hour,
 .minute,
 .second,
 .date,
+.month,
 .day {
-  height: 150px;
-  width: 150px;
+  color: #fff000;
+  height: 100%;
+  width: 100%;
+  font-size: 1.3rem;
   text-align: center;
-  padding: 10px;
-  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 10px;
-  border: 10px groove #ffffff;
-  /* border-radius: 50%; */
 }
